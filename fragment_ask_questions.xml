@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.AskQuestionsFragment"
+    android:background="@color/brown"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!-- TODO: Update blank fragment layout -->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtpost"
+                    android:hint="Type your question here"
+
+                    />
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+    <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtDescription"
+                    android:hint="Type description"
+                    android:layout_below="@id/txtpost"
+                     android:gravity="top"
+                    android:minLines="19"
+                    android:layout_weight="1"
+        android:inputType="textMultiLine" />
+
+                <!--<GridView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbarAlwaysDrawHorizontalTrack="true"-->
+                    <!--android:id="@+id/imglist">-->
+                    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:src="@drawable/bg10"/>&ndash;&gt;-->
+                <!--</GridView>-->
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/imgView"-->
+            <!--/>-->
+
+                <!--</ListView>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/imagelayout">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/attachement"
+        android:id="@+id/imgattach"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+                <Button
+                    android:id="@+id/btnpost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardview"
+                    android:layout_alignParentBottom="true"
+                    android:text="Post"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical">-->
+                <!--&lt;!&ndash;  TODO: Update blank fragment layout-->
+              <!--&ndash;&gt;-->
+                <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:cardElevation="20dp"-->
+                <!--android:background="@drawable/bg4">-->
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/bg10"-->
+                    <!--android:gravity="bottom"-->
+                    <!--android:id="@+id/txtpost"-->
+                    <!--android:textColorHint="@color/dark"-->
+                    <!--android:hint="Type your question here" />-->
+                <!---->
+            <!--</android.support.v7.widget.CardView>-->
+
+                <!--<android.support.v7.widget.CardView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/cardview"-->
+                    <!--android:layout_marginTop="20dp">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<android.support.v7.widget.CardView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content">-->
+                            <!--<LinearLayout-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:orientation="vertical">-->
+                                <!--<EditText-->
+                                    <!---->
+                                    <!--android:layout_width="match_parent"-->
+                                    <!--android:layout_height="wrap_content"-->
+                                    <!--android:id="@+id/txtDescription"-->
+                                    <!--android:hint="Type description"-->
+                                    <!--android:layout_below="@id/txtpost"-->
+                                    <!--android:gravity="top"-->
+                                    <!--android:minLines="19"-->
+                                    <!--android:layout_weight="1"-->
+                                    <!--android:inputType="textMultiLine"-->
+                                    <!--android:textColorHint="@color/dark"-->
+                                    <!--/>-->
+                                <!---->
+
+                                    <!--<ListView-->
+                                        <!--android:layout_width="match_parent"-->
+                                        <!--android:layout_height="300dp"-->
+                                        <!--android:scrollbarAlwaysDrawHorizontalTrack="true"-->
+                                        <!--android:id="@+id/imglist">-->
+                                        <!---->
+                                        <!--<ImageView-->
+                                            <!--android:layout_width="wrap_content"-->
+                                            <!--android:layout_height="wrap_content" -->
+                                            <!--android:src="@drawable/bg10"/>-->
+
+                                    <!--</ListView>-->
+
+                                <!---->
+
+                            <!--</LinearLayout>-->
+                        <!--</android.support.v7.widget.CardView>-->
+                        <!--<ImageButton-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:src="@drawable/attachlogo"-->
+                            <!--android:id="@+id/imgattach" />-->
+                    <!--</LinearLayout>-->
+                <!--</android.support.v7.widget.CardView>-->
+                <!--<Button-->
+                    <!--android:id="@+id/btnpost"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@id/cardview"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:text="Post" />-->
+            <!--</LinearLayout>-->
+        <!--</ScrollView>-->
+    <!--</RelativeLayout>-->
+
+
+</FrameLayout>

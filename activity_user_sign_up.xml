@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserSignUp"
+    android:orientation="vertical"
+
+    android:background="@drawable/bg12">
+
+<!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/ename"-->
+    <!--android:hint="Enter Name"-->
+    <!--android:inputType="text"-->
+    <!---->
+    <!--android:textSize="20dp" -->
+    <!--/>-->
+    <!---->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/eemail"-->
+        <!--android:hint="Enter Email"-->
+        <!--android:inputType="textEmailAddress"-->
+
+        <!--android:textSize="20dp"/>-->
+
+<!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/epass"-->
+    <!--android:inputType="textPassword"-->
+    <!--android:hint="Enter Password"-->
+    <!---->
+    <!--android:textSize="20dp" />-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/ecpass"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:hint="Confirm Password"-->
+
+        <!--android:textSize="20dp" />-->
+
+<!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/signupbtn"-->
+    <!--android:text="Register" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="If already Registered! Login Here"-->
+        <!--android:id="@+id/logintxt"/>-->
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to signup"
+        android:textSize="40dp"
+        android:textColor="@color/dark"
+        android:id="@+id/signuptxt" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ename"
+        android:hint="Enter Name"
+        android:textStyle="bold"
+        android:inputType="text"
+        app:met_baseColor="@color/dark"
+        android:textSize="20dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eemail"
+        android:textStyle="bold"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        app:met_baseColor="@color/dark"
+        android:textSize="20dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/epass"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        app:met_baseColor="@color/dark"
+        android:textSize="20dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ecpass"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        app:met_baseColor="@color/dark"
+        android:textSize="20dp"/>
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbtn"
+        android:text="Register" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Already login user,
+  click here!!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/logintxt"
+        />
+
+
+</LinearLayout>

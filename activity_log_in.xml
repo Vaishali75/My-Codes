@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LogIn"
+    android:orientation="vertical"
+    android:background="@drawable/bg12"
+    android:padding="20dp"
+    >
+    
+    <!--<EditText-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Enter Email"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/eemaillog"-->
+
+        <!--android:inputType="textEmailAddress" />-->
+
+    <!--<EditText-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:hint="Enter Password "-->
+        <!--android:id="@+id/epasslog"-->
+
+        <!--android:inputType="textPassword" />-->
+
+    <!--<Button-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="LogIn"-->
+        <!--android:id="@+id/logbtn" />-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="If not Registered! Register Here"-->
+        <!--android:id="@+id/signuptxt"/>-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Login"
+        android:background="@drawable/background"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/eemaillog"
+        app:met_baseColor="@color/dark"
+        app:met_textColorHint="@color/dark"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="Enter Password "
+        android:id="@+id/epasslog"
+        android:inputType="textPassword"
+        app:met_baseColor="@color/dark"
+        app:met_textColorHint="@color/dark"
+        />
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        android:id="@+id/logbtn"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If not Register!! Sign Up"
+        android:textColor="@color/dark"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/signuptxt"/>
+
+</LinearLayout>

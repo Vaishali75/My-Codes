@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Categories"
+    android:background="@color/brown"
+    android:padding="20dp">
+
+
+
+   <!--<LinearLayout-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="match_parent"-->
+       <!--android:layout_marginTop="10dp"-->
+
+       <!--android:orientation="vertical">-->
+
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content">-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardtech">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Technology"-->
+                   <!--android:id="@+id/technology"-->
+                   <!--android:layout_gravity="center"/>-->
+           <!--</android.support.v7.widget.CardView>-->
+
+               <!--<android.support.v7.widget.CardView-->
+                   <!--android:layout_width="20dp"-->
+                   <!--android:layout_height="80dp"-->
+                   <!--android:layout_weight="1"-->
+                   <!--android:id="@+id/cardsocial">-->
+
+                   <!--<TextView-->
+                       <!--android:layout_width="wrap_content"-->
+                       <!--android:layout_height="wrap_content"-->
+                       <!--android:text="Social"-->
+                       <!--android:id="@+id/social"-->
+                       <!--android:layout_gravity="center"/>-->
+
+               <!--</android.support.v7.widget.CardView>-->
+
+       <!--</LinearLayout>-->
+
+
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content">-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardcareer">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Career"-->
+                   <!--android:id="@+id/career"-->
+                   <!--android:layout_gravity="center"/>-->
+           <!--</android.support.v7.widget.CardView>-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardpoli">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Political"-->
+                   <!--android:id="@+id/political"-->
+                   <!--android:layout_gravity="center"/>-->
+
+           <!--</android.support.v7.widget.CardView>-->
+
+       <!--</LinearLayout>-->
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content">-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardeco">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Economical"-->
+                   <!--android:id="@+id/economical"-->
+                   <!--android:layout_gravity="center"/>-->
+           <!--</android.support.v7.widget.CardView>-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardarts">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Arts"-->
+                   <!--android:id="@+id/arts"-->
+                   <!--android:layout_gravity="center"/>-->
+
+           <!--</android.support.v7.widget.CardView>-->
+
+
+       <!--</LinearLayout>-->
+
+
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content">-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardcul">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Cultural"-->
+                   <!--android:id="@+id/cultural"-->
+                   <!--android:layout_gravity="center"/>-->
+           <!--</android.support.v7.widget.CardView>-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardenter">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Entertainment"-->
+                   <!--android:id="@+id/entertainment"-->
+                   <!--android:layout_gravity="center"/>-->
+
+           <!--</android.support.v7.widget.CardView>-->
+
+
+       <!--</LinearLayout>-->
+
+
+       <!--<LinearLayout-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content">-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardreligious">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Religious"-->
+                   <!--android:id="@+id/religious"-->
+                   <!--android:layout_gravity="center"/>-->
+           <!--</android.support.v7.widget.CardView>-->
+
+           <!--<android.support.v7.widget.CardView-->
+               <!--android:layout_width="20dp"-->
+               <!--android:layout_height="80dp"-->
+               <!--android:layout_weight="1"-->
+               <!--android:id="@+id/cardsports">-->
+
+               <!--<TextView-->
+                   <!--android:layout_width="wrap_content"-->
+                   <!--android:layout_height="wrap_content"-->
+                   <!--android:text="Sports"-->
+                   <!--android:id="@+id/sports"-->
+                   <!--android:layout_gravity="center"/>-->
+
+           <!--</android.support.v7.widget.CardView>-->
+
+
+       <!--</LinearLayout>-->
+
+
+
+
+   <!--</LinearLayout>-->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg12"
+                android:text="Go where You want"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardtech"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/technology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/technologylogo"
+                    android:text="Technology"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardsocial"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/socialicon"
+                    android:gravity="center"
+                    android:text="Social"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardcareer"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/career"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/careerbg"
+                    android:text="Career"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardpoli"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/political"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/politics"
+                    android:text="Political"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+
+                    />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardeco"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/economical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/economic"
+                    android:gravity="center"
+                    android:text="Economical"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardarts"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/arts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/artsicon"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Arts"
+                    android:textColor="#fff"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardcul"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/brown"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:id="@+id/cultural"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/culture"
+                    android:gravity="center"
+                    android:text="Cultural"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardenter"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:contentPadding="5dp"
+                app:cardBackgroundColor="@color/brown">
+
+                <TextView
+                    android:id="@+id/entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/entertainmentbg"
+                    android:gravity="center"
+                    android:text="Entertainment"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardreligious"
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                app:contentPadding="5dp"
+                app:cardBackgroundColor="@color/brown">
+
+                <TextView
+                    android:id="@+id/religious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/religiousbg"
+                    android:gravity="center"
+                    android:text="Religious"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardsports"
+                android:layout_width="20dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:contentPadding="5dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/brown">
+
+                <TextView
+                    android:id="@+id/sports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+android:background="@drawable/sportsicon"
+                    android:gravity="center"
+                    android:text="Sports"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

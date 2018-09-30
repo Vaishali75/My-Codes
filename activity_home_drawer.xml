@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/que"
+            android:id="@+id/askqusetion"
+            android:title="Ask Questions"/>
+        <item
+            android:id="@+id/allquestions"
+            android:icon="@drawable/askque"
+            android:title="All Questions" />
+        <item
+            android:id="@+id/myquestions"
+            android:icon="@drawable/myque"
+            android:title="My Questions" />
+        <item
+            android:id="@+id/unanswered"
+            android:icon="@drawable/unans"
+            android:title="Unanswered Questions" />
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/person"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/users"
+            android:icon="@drawable/face"
+            android:title="Users" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:title="Bookmark"
+                android:id="@+id/bookmark"
+                android:icon="@drawable/blackbookmark"/>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/rate"
+                android:title="Rate And Review" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
